@@ -6,12 +6,15 @@
   padding-right: 30px;
   text-align: center;
   a:link { 
-    color: rgb(48, 48, 48);
+    color: $primary-color;
+    text-decoration: none;
   }
   a:visited { 
-    color: grey;
+    color: $primary-color;
+    text-decoration: none;
   }
   a:hover {
+    color: $primary-color;
     text-decoration: underline;
   }
   h4 {
